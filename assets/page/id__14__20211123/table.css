@@ -1,0 +1,39 @@
+.ul, ._table_ ._tbody_ ul, ._table_ ._thead_ ul {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+}
+
+.li, ._table_ ._tbody_ ul li, ._table_ ._thead_ ul li {
+  width: 200px;
+  padding: 2px 10px;
+  font-size: 14px;
+}
+.li:first-child, ._table_ ._tbody_ ul li:first-child, ._table_ ._thead_ ul li:first-child {
+  width: 60px;
+}
+.theme-table, ._table_ ._tbody_ ul, ._table_ ._thead_ {
+  color: #212529;
+  background: #f0f8ff;
+  width: fit-content;
+  border-radius: 30px;
+  box-shadow: 0 2px 4px -4px #212529;
+}
+
+._table_ {
+  width: 100%;
+}
+._table_ ._thead_ {
+  margin-bottom: 2px;
+}
+._table_ ._thead_ ul li {
+  font-weight: 700;
+}
+._table_ ._tbody_ ul {
+  margin-bottom: 2px;
+}
+._table_ ._tbody_ ul li {
+  font-weight: 400;
+}
+
+/*# sourceMappingURL=table.css.map */

@@ -1,0 +1,21 @@
+body {background: transparent;}
+
+/*---------------------------------
+## box-blur
+---------------------------------*/
+.box-blur {position: relative;overflow: hidden;}
+
+.box-blur:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 50%;
+    background-color: rgba(255, 255, 255, 0.2) !important;
+    backdrop-filter: blur(5px);
+    transform: translateY(60%);
+    transition: .5s;}
+
+.box-blur:hover:before {transform: translateY(0%);}
+
