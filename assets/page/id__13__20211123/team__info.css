@@ -1,0 +1,77 @@
+/* 
+  # Developer By suhag78641@gmail.com
+  # SASS Style
+  # Design source Huawei Personal info
+  # copyright 2021-10-08
+*/
+.box .box-body .box-items {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background: #fff;
+  padding: 0px 12px;
+  border-radius: 12px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+.box .box-body .box-items .single-item-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  padding-right: 15px;
+  box-shadow: 0 1px #e7e7e7;
+  user-select: none;
+  position: relative;
+  -webkit-transition: color 0.2s ease, background-color 0.2s ease;
+  -moz-transition: color 0.2s ease, background-color 0.2s ease;
+  -ms-transition: color 0.2s ease, background-color 0.2s ease;
+  -o-transition: color 0.2s ease, background-color 0.2s ease;
+  transition: color 0.2s ease, background-color 0.2s ease;
+}
+.box .box-body .box-items .single-item-box:last-child {
+  box-shadow: 0 0.2px transparent;
+}
+.box .box-body .box-items .single-item-box::before {
+  position: absolute;
+  content: "";
+  right: 2px;
+  border: solid #a1a5b7;
+  border-width: 0 1px 1px 0;
+  display: inline-block;
+  padding: 3px;
+  vertical-align: middle;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+.box .box-body .box-items .single-item-box:hover {
+  color: #6b00ff;
+  -webkit-transition: color 0.2s ease, background-color 0.2s ease;
+  -moz-transition: color 0.2s ease, background-color 0.2s ease;
+  -ms-transition: color 0.2s ease, background-color 0.2s ease;
+  -o-transition: color 0.2s ease, background-color 0.2s ease;
+  transition: color 0.2s ease, background-color 0.2s ease;
+}
+.box .box-body .box-items .single-item-box .content-title {
+  font-size: 14px;
+  font-weight: 700;
+}
+.box .box-body .box-items .single-item-box .content-txt {
+  font-size: 15px;
+  font-weight: 400;
+}
+.box .box-body .box-items .single-item-box .content-img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.box .box-body .box-items:last-child {
+  margin-bottom: 0px;
+}
+
+/*# sourceMappingURL=another_1.css.map */

@@ -1,0 +1,85 @@
+body {background: transparent;}
+
+/*---------------------------------
+## TAB Navigation id_1
+---------------------------------*/
+.navigation-id_1 {
+    background: linear-gradient(to right, #4a00e0, #8e2de2);
+    font-family: 'Ubuntu', sans-serif;
+    height: 100px;}
+
+.navigation-id_1 .box {
+    width: 300px;
+    height: 80px;
+    background: var(--bs-light);
+    border-radius: 25px;
+    justify-content: space-evenly;}
+
+.navigation-id_1 .box .single-box a {
+    flex-direction: column;
+    width: 50px;
+    height: 50px;
+    transition: all .4s;
+    border-radius: 10px;
+    font-size: 0.8rem;
+    position: relative;}
+
+.navigation-id_1 .box .single-box.active{
+    box-shadow: 0 5px 10px rgba(0,0,0,0.21),0 -0.1px 10px rgba(0,0,0, 0.055);
+    border-radius: 10px;
+    transition: all .3s;}
+
+.navigation-id_1 .box .single-box p {
+    margin: 0;
+    margin-top: 3px;
+    font-size: 0.7rem;}
+
+.navigation-id_1 .box .single-box i, .single-box p {
+    color: #333;
+    line-height: 1.5;
+    transition: all .4s;}
+
+.navigation-id_1 .box .single-box.active i {color: var(--bs-indigo);}
+.navigation-id_1 .box .single-box.active p {color: var(--bs-indigo);}
+
+/*---------------------------------
+## TAB Navigation id_2
+---------------------------------*/
+.navigation-id_2 {
+    background: var(--bs-gray-dark);
+    font-family: 'Ubuntu', sans-serif;
+    height: 100px;}
+
+.navigation-id_2 .box {
+    width: 300px;
+    height: 80px;
+    background: var(--bs-dark);
+    border-radius: 25px;
+    justify-content: space-evenly;}
+
+.navigation-id_2 .box .single-box a {
+    flex-direction: column;
+    width: 50px;
+    height: 50px;
+    transition: all .4s;
+    border-radius: 10px;
+    font-size: 0.8rem;
+    position: relative;}
+
+.navigation-id_2 .box .single-box.active{
+    box-shadow: 0 5px 10px rgba(0,0,0,0.21),0 -0.1px 10px rgba(0,0,0, 0.055);
+    border-radius: 10px;
+    transition: all .3s;}
+
+.navigation-id_2 .box .single-box p {
+    margin: 0;
+    margin-top: 3px;
+    font-size: 0.7rem;}
+
+.navigation-id_2 .box .single-box i, .single-box p {
+    color: var(--bs-gray);
+    line-height: 1.5;
+    transition: all .4s;}
+
+.navigation-id_2 .box .single-box.active i {color: var(--bs-teal);}
+.navigation-id_2 .box .single-box.active p {color: var(--bs-teal);}

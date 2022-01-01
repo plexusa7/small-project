@@ -1,0 +1,25 @@
+.ul {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+
+.li {
+    width: 200px;
+    padding: 2px 10px;
+    font-size: 14px;
+    &:first-child {
+        width: 60px;
+    }
+    &:last-child {
+        // width: 150px;
+    }
+}
+
+.theme-table {
+    color: #212529;
+    background: #f0f8ff;
+    width: fit-content;
+    border-radius: 30px;
+    box-shadow: 0 2px 4px -4px #212529;
+}
