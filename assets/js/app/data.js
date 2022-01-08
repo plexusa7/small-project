@@ -168,6 +168,7 @@ script_ui[4]        = "#";
 const uploadProfile = []
 uploadProfile[0]    = "assets/img/logo/logo.png";
 uploadProfile[1]    = "https://scontent.fdac5-1.fna.fbcdn.net/v/t1.6435-9/82173647_2605318169702499_3309849858705195008_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=lShaw6B3B4kAX_59FQX&tn=7XK3Jj9oZXnRtUUd&_nc_ht=scontent.fdac5-1.fna&oh=c4d375c3877e6f3ab73ac3510e48279d&oe=61D4DE56";
+uploadProfile[1]    = "assets/img/Admin-82173647.jpg";
 uploadProfile[2]    = "assets/img/logo/logo-sq.png";
 
 // -------------------------------------------------------------------------------------------
